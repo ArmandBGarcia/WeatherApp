@@ -1,0 +1,38 @@
+.container {
+  /* background-color: azure; */
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputText {
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 0;
+  background-color: powderblue;
+}
+
+.inputText:hover {
+  cursor: text;
+}
+
+.inputSubmit {
+  margin-left: 30px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: cornflowerblue;
+  border: 0;
+}
+
+.inputSubmit:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: solid 5px rgb(97, 205, 252);
+}

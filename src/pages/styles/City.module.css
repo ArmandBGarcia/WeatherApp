@@ -1,0 +1,24 @@
+#container {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 2.5;
+  /* border: solid 1px black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container02 {
+  /* border: solid 1px black; */
+  color: #0e798a;
+  width: 300px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h2 {
+  color: #0e798a;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}

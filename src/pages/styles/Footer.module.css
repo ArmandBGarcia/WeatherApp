@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  font-family: sans-serif;
+}
+
+footer p {
+  font-size: 15px;
+}
