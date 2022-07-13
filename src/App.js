@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import City from "./pages/City";
 import Home from "./pages/Home";
-const apiKey = "fa340a68aaec2a41344c33f139f80ff8";
 
 const App = () => {
   const [cities, setCities] = useState([]);
@@ -13,7 +12,7 @@ const App = () => {
   function onSearch(city) {
     //Llamado a la API del clima
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fa340a68aaec2a41344c33f139f80ff8`
     )
       .then((r) => r.json())
       .then((recurso) => {
