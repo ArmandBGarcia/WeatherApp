@@ -12,7 +12,7 @@ const App = () => {
   function onSearch(city) {
     //Llamado a la API del clima
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fa340a68aaec2a41344c33f139f80ff8`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fa340a68aaec2a41344c33f139f80ff8`
     )
       .then((r) => r.json())
       .then((recurso) => {
